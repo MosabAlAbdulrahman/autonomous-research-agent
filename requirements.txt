@@ -1,0 +1,15 @@
+transformers
+torch
+llama-cpp-python
+sentence-transformers
+chromadb
+playwright
+beautifulsoup4
+pandas
+jinja2
+weasyprint
+streamlit
+schedule
+crewai
+langchain
+faiss-cpu
