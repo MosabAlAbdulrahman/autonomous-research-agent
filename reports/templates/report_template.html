@@ -1,1 +1,10 @@
-<html><body><h1>Weekly Market Report</h1></body></html>
+<!-- reports/templates/report_template.html -->
+<html>
+<body>
+    <h1>Weekly Market Summary</h1>
+    {% for item in summaries %}
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.summary }}</p>
+    {% endfor %}
+</body>
+</html>
